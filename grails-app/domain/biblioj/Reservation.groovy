@@ -7,4 +7,8 @@ class Reservation {
 		code(blank:false, unique:true)
 		dateReservation(blank:false)
     }
+	
+	String toString(){
+		"${code}";
+	}
 }
